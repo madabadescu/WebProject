@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta name="keywords" content="carti, preturi, cumparator, bestseller, promotii, autori, reducere">
+    <meta name="description" content="Eshopul librariei online (diferite tipuri de carti).">
+    <%- include("../fragmente/head.ejs") %>
+    
+    <script src="https://kit.fontawesome.com/70c7e53b74.js" crossorigin="anonymous"></script>
+    <title>Librarie online - E-shop</title>  
+ </head>
+<body>
+<%- include("../fragmente/header.ejs") %>
+    
+    <main>
+        <section id="produse">
+            <h2>PRODUSE</h2>
+                    <article class="produs">
+                        <p class="nume">Nume: <span><%- locals.prod.nume %></span></p>
+                        <p class="clasificare">Categorie: <span><%- locals.prod.clasificare %></span></p>
+                        <p class="pret">Pret: <span><%- locals.prod.pret %></span></p>
+                        <p class="pret">Descriere: <span><%- locals.prod.descriere %></span></p>
+                        <p class="pret">Categorie: <span><%- locals.prod.categorie %></span></p>
+                        <p class="pret">Autor: <span><%- locals.prod.autori %></span></p>
+                        <img src="/resurse/imagini/galerie/<%- locals.prod.imagine%>" alt="imag prod" style="width:38%;height:auto;"/>
+                    </article>
+        </section>
+    </main>
+    <footer>
+        <%- include("../fragmente/footer.ejs") %>
+    </footer>
+</body>
+</html>

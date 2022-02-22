@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta name="keywords" content="carti, preturi, cumparator, bestseller, promotii, autori, reducere">
+    <meta name="description" content="Eshopul librariei online (diferite tipuri de carti).">
+    <link rel="stylesheet" href="/resurse/stiluri/produse.css" type="text/css" />
+    <%- include("../fragmente/head.ejs") %>
+    <script src="https://kit.fontawesome.com/70c7e53b74.js" crossorigin="anonymous"></script>
+    <title>Librarie online - E-shop</title>  
+    <script type="text/javascript" src=/resurse/js/produse.js></script>
+ </head>
+<body>
+<%- include("../fragmente/header.ejs") %>
+    
+    <main>
+        <label>Numele cartii: <input id="i_text" type="text" value="abc"></label>
+        <p><br></p>
+        <label> Pret minim: <input type="range" id="inp-pret" value="0" min="0"  max="50"></label>
+        <label> Pret maxim: <input type="range" id="inp-pret2" value="50" min="0"  max="50"></label>
+        <p><br></p>
+        <label>Select simplu:
+            <select id="inp-categorie">
+                <option value="toate">toate</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="clasic">Clasic</option>
+                <option value="horror">Horror</option>
+                <option value="mister">Mister</option>
+                <option value="istoric">Istoric</option>
+                <option value="romantic">Romantic</option>
+                <option value="contemporan">Contemporan</option>
+            </select>
+        </label>
+        <p><br></p>
+        
+        <div>Reducere:
+            <label>Nu conteaza
+            <input type="radio" name="gr-rad" id="general" value="general"
+                   checked>
+            </label>
+            <label>Da
+            <input type="radio" name="gr-rad" id="da" value="true">
+            </label>
+            <label>Nu
+            <input type="radio" name="gr-rad" id="nu" value="false">
+            </label>
+          </div>
+        <p><br></p>
+        <div>Tip de coperta:
+            <label>Toate
+                <input id="i_check1" name="gr_chck" checked value="toate" type="checkbox"/>
+            </label>
+        <label>Hardback
+            <input id="i_check1" name="gr_chck" value="hardback" type="checkbox"/>
+        </label>
+        <label>Dust-jacket 
+            <input id="i_check2" name="gr_chck" value="dust-jacket" type="checkbox"/>
+        </label>
+        <label>Hartie simpla
+            <input id="i_check2" name="gr_chck" value="hartie simpla" type="checkbox"/>
+        </label>
+        <div></div>
+        <p><br></p>
+        <label>Are in descriere cuvintele:
+            <textarea id="i_textarea">aici scrii expresia</textarea>
+        </label>
+        <p><br></p>
+        <button id="filtrare">Filtreaza</button>
+        <p><br></p>
+        <button id="sortCrescNume">Sorteaza crescator dupa nume si lungimea descrierii</button>
+        <button id="sortDescrescNume">Sorteaza descrescator dupa nume si lungimea descrierii</button>
+        <p><br></p>
+        <button id="resetare">Reseteaza</button>
+        <p><br></p>
+        <button id="suma">Calculeaza suma</button>
+        <section id="produse">
+            <h2>Produse</h2>
+            <div class="grid-produse">
+            <% for(let prod of locals.produse){ %>
+                    <article id="art<%-prod.id%>" class="produs">
+                        <h3 class="nume">Nume: <a href="/produs/<%-prod.id%>"><span class="val-nume"><%- prod.nume %></span></a></h3>
+                        <div class="info-prod">
+                            <p class="clasificare">Categorie: <span class="val-clas"><%- prod.clasificare %></span></p>
+                            <p class="descriere">Descriere: <span class="val-desc"><%- prod.descriere %></span></p>
+                            <p class="categorie">Categorie de coperta: <span class="val-categ"><%- prod.categorie %></span></p>
+                            <table id="tabel-prod" class="tab">
+                                <tbody>
+                                    <tr>
+                                        <td class="pret">Pret: </td>
+                                        <td><span class="val-pret"><%- prod.pret %></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="editura">Editura: </td>
+                                        <td><span class="val-edit"><%- prod.editura %></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="autori">Autori: </td>
+                                        <td><span class="val-aut"><%- prod.autori %></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="dataa">Data adaugare: </td>
+                                        <td><span class="val-data"><%- prod.data_adaugare %></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="red">Reducere: </td>
+                                        <td><span class="val-red"><%- prod.reducere %></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <img class="imag" src="/resurse/imagini/galerie/<%- prod.imagine%>" alt="imag prod" style="width:38%;height:auto;"/>
+                        </div>
+                    </article>
+                <% }%>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <%- include("../fragmente/footer.ejs") %>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta name="keywords" content="carte, librarie, autor, cititor, club-de-carte">
+    <meta name="description" content="Librarie online.">
+    <%- include("../fragmente/head.ejs") %>
+    <link rel="stylesheet" href="/resurse/stiluri/grid.css" type="text/css" />
+    <link rel="stylesheet" href="/resurse/stiluri/grid_700.css" type="text/css" media="screen and (max-width: 700px)" />
+    <link rel="stylesheet" href="/resurse/stiluri/grid_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <script src="https://kit.fontawesome.com/70c7e53b74.js" crossorigin="anonymous"></script>
+    <title>Librarie online</title>  
+ </head>
+<body>
+<%- include("../fragmente/header.ejs") %>
+    
+    <main>
+        <section id="descriere" class="grid-item">
+            <h2>Descriere</h2>
+            <section>
+                <h3>Introducere</h3>
+                <p>Aceasta librarie online a fost fondata in 2021 si este deschisa oricarui tip de cititor.<br>
+                   Fie ca iti plac cartile istorice, actiunea plasata intr-o lume fantastica sau o poveste de dragoste emotionanta, cu siguranta vei gasi o carte potrivita pentru tine la noi in colectie.
+                </p>
+            </section>
+            <section>
+                <h3>Scop</h3>
+                <p>Ne dorim ca acesta sa fie un mediu propice nu numai pentru achizitionarea de carti, dar si pentru discutii intre cititori.<br> 
+                   In plus, initiativa noastra vrea sa sprijine cartile si autorii <i>underrated</i>, care merita aprecierea publicului larg.
+                </p>
+            </section>
+            <section>
+                <h3>Dezvoltare</h3>
+                <p>Pe viitor, ne dorim sa crestem comunitatea si sa ne extindem in afara mediului online, deschizandu-ne propria librarie fizica.<br>
+                   Un model pentru noi este <a href="https://www.powells.com/ " target="_blank">Libraria Powells</a>.
+                </p>
+            </section>
+        </section>
+        <article id="bestsellers" class="grid-item">
+            <h2>Bestsellers</h2>
+            <ol>
+                <li>Viata lui Addie LaRue - V.E. Schwab</li><br>
+                <li>Circe - Madeline Miller</li><br>
+                <li>Dune - Frank Herbert</li>
+                <li>Homo Sapiens: O scurta istorie a omenirii - Yuval Noah Harari</li>
+                <li>Fizica Povestita - Cristian Presura</li>
+            </ol>
+            <iframe id="ifrvid" name="ifr-video" width="100%" height="350" src="https://www.youtube.com/embed/3R5qH5Z_RqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="ifrrr" class="taburi-iframe">
+                <a href="https://www.youtube.com/embed/3R5qH5Z_RqE" target="ifr-video">Viata lui Addie LaRue</a>
+                <a href="https://www.youtube.com/embed/v_7kwdGTjgo" target="ifr-video">Circe</a>
+                <a href="https://www.youtube.com/embed/tqvIwpjumkM" target="ifr-video">Dune</a><br/>
+            </div>
+            <hr>
+            <details>
+                <summary>Bestsellers de anul trecut</summary>
+                <ul>
+                  <li>Cantecul lui Ahile - Madeline Miller</li>
+                  <li>Arta subtila a nepasarii - Mark Manson</li>
+                  <li>Hobbitul - J.R.R. Tolkien</li>
+                </ul>
+            </details>
+        </article>
+        <article id="titlul" class="grid-item">
+            <h2>Titlul lunii pentru Clubul de carte</h2>
+            <h3>Piranesi - Susanna Clarke</h3>
+            <p><b>Piranesi</b> este una dintre cele mai bune carti aparute in 2020. Imposibil de constrans intr-un singur gen literar, aceasta te conduce intr-un univers unic, misterios si emotionant.<br>
+                <q>Aproape ca uitasem sa respir. Pentru o clipa am avut imaginea a cum ar putea fi daca in loc de doi oameni in Lume ar fi mii.</q>
+            </p>
+            <hr>
+            <details>
+                <summary>Intrebari frecvente:</summary>
+                <ol>
+                  <li>Cine poate participa la clubul de carte?<br> Raspuns: Oricine isi doreste sa citeasca titlul propus in acea luna.</li>
+                  <li>Putem propune noi titlul pentru urmatoarea luna?<br> Raspuns: Sigur! O sa alegem din propunerile date de cititori.</li>
+                  <li>Unde se gasesc alte carti discutate in lunile anterioare?<br> Raspuns: Pe pagina specifica Clubului de carte, care se poate accesa din meniu.</li>
+                </ol>
+            </details>
+            <img src="resurse/imagini/original.jpg" alt="Carte Piranesi" width="100%">
+        </article>
+        
+        <section id="calendar" class="grid-item">
+            <h2>Calendar</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores aut, odio officiis quaerat similique qui corrupti culpa consequuntur. Sunt eum rerum harum, nesciunt quod incidunt eos repudiandae dicta laboriosam. Laboriosam.</p>
+        </section>
+        <div id="tabel" class="grid-item">
+            <h2>Angajatul lunii</h2>
+            <table id="tabelas">
+                <col style="width:20%">
+	            <col style="width:25%">
+	            <col style="width:55%">
+                <thead>
+                  <tr>
+                    <th>Luna</th>
+                    <th>Nume Angajat</th>
+                    <th>Carte Favorita</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ianuarie</td>
+                    <td>Marian Popescu</td>
+                    <td>Zei Americani - Neil Gaiman</td>
+                  </tr>
+                  <tr>
+                    <td>Februarie</td>
+                    <td>Cristina Albu</td>
+                    <td>Fata din tren - Paula Hawkings</td>
+                  </tr>
+                  <tr>
+                    <td>Martie</td>
+                    <td>Mihaela Barbu</td>
+                    <td>Mandrie si Prejudecata - Jane Austen</td>
+                  </tr>
+                  <tr>
+                    <td>Aprilie</td>
+                    <td>Cristina Albu</td>
+                    <td>Cantecul lui Ahile - Madeline Miller</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Cele mai multe aparitii</td>
+                    <td>Cristina Albu</td>
+                    <td>Departamentul de Marketing</td>
+                  </tr>
+                </tfoot>
+            </table>
+        </div>
+        <section id="anunturi" class="grid-item">
+            <h2>Anunturi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maiores fugiat nisi rem amet. At aperiam cum magni deleniti, nostrum corporis quos rem quasi? Reprehenderit ab beatae illum architecto sed.</p>
+        </section>
+        <section id="lista" class="grid-item">
+            <h2>Lista de utilizatori online</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias nihil consectetur, voluptas officia voluptatem sint quos dicta neque exercitationem magni repellendus ab itaque cumque ea velit at ut. Blanditiis?</p>
+        </section>
+        <section id="date" class="grid-item">
+            <h2>Date despre utilizatori si statistici</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae porro atque deleniti unde dolor eaque eligendi, exercitationem distinctio sapiente sed velit quo veniam voluptate obcaecati? Architecto, nostrum. Blanditiis, quia amet.</p>
+        </section>
+        <section id="site" class="grid-item">
+            <h2>Date despre site si server</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quae, ea facere repellendus quasi maxime iusto iure cumque nulla sequi quidem aliquid deserunt doloremque architecto, voluptas est! Porro, sit culpa!</p>
+        </section>
+        <!-- Galerie statica -->
+        <section id="galerie-statica" class="grid-item">
+          <h2>Galerie</h2>
+          <div id="grid-galerie">
+              <% for (let imag of locals.imagini1){  %>
+              <figure>
+                  <picture>
+                      <!-- il ia pe primul care se potriveste cu query-ul din media-->
+                      <source srcset="/<%-imag.mic%>" media="(max-width:700px)"/>
+                      <img src="/<%-imag.mare%>" alt="text" />
+                  </picture>
+                  <figcaption><%-imag.titlu%></figcaption>
+              </figure>
+              <% } %>
+          </div>
+        </section>
+        <p id="watermark">Badescu<br>Madalina</p>
+    </main>
+    <footer id="end">
+        <%- include("../fragmente/footer.ejs") %>
+    </footer>
+</body>
+</html>
