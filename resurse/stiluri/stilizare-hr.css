@@ -1,0 +1,5 @@
+hr {
+    height: 10px;
+    background: repeating-linear-gradient(var(--culoare-atentionare), var(--culoare-text) 25%, var(--culoare-alttext) 25%);
+    border-radius: 5px;
+}

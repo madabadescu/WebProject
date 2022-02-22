@@ -1,0 +1,93 @@
+@media print {
+
+	#banner{
+		position: absolute !important;
+		top:0 !important;
+		width:50% !important;
+		height:40px !important;
+        border:5px double black !important;
+		right:0px !important;
+		overflow: visible;		
+		display: inline-block;
+        transform: none !important;
+	}
+
+    #top{
+        visibility: hidden;
+    }
+	h1{
+		margin-left: 50%;
+		text-align:center;
+		margin-left:1cm;
+	}
+    nav{
+        page-break-after: always;
+    }
+    ul { 
+        list-style-type: disc; 
+        list-style-position: inside; 
+        overflow: visible;
+    }
+    a{
+        color: var(--culoare-text);
+    }
+	html, body {
+        width: 210mm;
+        /* height: 297mm; */
+        /*height: 282mm;*/
+				overflow:visible !important;
+        
+    }
+		#watermark
+		{
+			display: block !important;
+			position: fixed;
+			bottom:0;
+            color: rgba(0, 0, 0, 0.3);
+            right: 25%;
+			background: none;
+			border:none;
+            width:60%;
+            height:10%;
+            text-align: center;
+		}
+
+	#end{
+		page-break-before: always;
+	}
+
+    img {
+       display: none;
+    }
+    #galerie-statica {
+        display: none;
+    }
+    #ifrvid {
+        display: none;
+    }
+    .taburi-iframe{
+        display: none;
+    }
+    #ifrrr{
+        display: none;
+    }
+}
+	@page {
+		size: A4 portrait;
+		margin-bottom:2cm;
+		margin-top:2cm;
+		counter-increment: page;
+			
+	}
+	@page:left{
+
+		margin-left:2cm;
+		margin-right:1cm;
+		border-radius: 20cm;
+	}
+	@page:right{
+
+		margin-right:2cm;
+		margin-left:1cm;
+	}
+

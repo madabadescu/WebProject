@@ -1,0 +1,30 @@
+.grid-produse{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+}
+.grid-produse .produs{
+    border-radius: 2rem;
+    box-shadow: 0px 0px 0.8rem 0.3rem grey;
+    overflow: hidden;
+}
+/*
+.grid-produse .produs{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "gr-descriere gr-descriere"
+    "gr-imagine gr-tabel";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.imag{
+    grid-area: gr-imagine;
+}
+.tab{
+    grid-area: gr-tabel;
+}
+.clasificare{
+    grid-area: gr-descriere;
+}
+*/

@@ -1,0 +1,25 @@
+/* @import "nav.css"; */
+body{
+    --culoare-text:#629C7E;
+    --culoare-back:#D7E1EA;
+    --culoare-headere: #E8A87C;
+    --culoare-atentionare: #43689C;
+    --culoare-alttext: #6FA2E8;
+    --culoare-altback: #EAC8BC;
+    background:var(--culoare-back);
+}
+h1{
+    color: var(--culoare-atentionare)
+}
+h2, h3{
+    color: var(--culoare-headere);
+}
+p, div, address, ul, ol{
+    color: var(--culoare-text);
+}
+details{
+    color: var(--culoare-alttext);
+}
+#watermark{
+    display: none;
+}

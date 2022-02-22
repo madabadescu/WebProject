@@ -1,0 +1,33 @@
+table, td, th {
+    border: 2px solid white;
+}
+table{
+    border-collapse:collapse;
+    border-spacing: 0px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--culoare-altback);
+    font-size: 0.75em;
+    color: var(--culoare-atentionare)
+}
+div{
+    overflow-x:auto;
+}
+td, th{
+    text-align: left;
+    padding: 7px;
+}
+
+td:nth-of-type(even), th:nth-of-type(even) {
+    background:var(--culoare-headere);
+}
+
+tbody tr:hover td {
+    background-color: var(--culoare-alttext) !important;
+}
+
+
+
+
+
