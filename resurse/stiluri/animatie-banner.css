@@ -1,0 +1,30 @@
+#banner {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin:0px;
+    text-align: center;
+    border: 3px solid var(--culoare-headere);
+    background: var(--culoare-altback);
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    transform:translateX(-100%); 
+    animation: mymove 15s linear 1; 
+
+}
+#banner > p{
+    margin: 7px;
+}  
+@keyframes mymove {
+    0%{background-color: var(--culoare-alttext);}
+    33%{background-color: var(--culoare-headere);
+        border-color: var(--culoare-alttext);
+        transform:translateX(0%);}
+    66%{background-color: var(--culoare-headere);
+        border-color: var(--culoare-alttext);
+        transform:translateX(0%);}
+    100%{background-color: var(--culoare-alttext);
+        border-color: var(--culoare-headere);
+        transform:translateX(100%);}
+} 

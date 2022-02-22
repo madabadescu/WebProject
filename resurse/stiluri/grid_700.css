@@ -1,0 +1,22 @@
+html{
+    font-size:0.9em;
+}
+main{
+    padding-left:1.5em;
+    padding-right:1.5em;
+    padding-top:1.5em;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "gr-prezentare gr-prezentare" 
+    "gr-prezentare gr-prezentare"
+    "gr-diverse1 gr-diverse1" 
+    "gr-diverse2 gr-diverse2"
+    "gr-calendar gr-anunturi" 
+    "gr-tabel gr-tabel" 
+    "gr-lista gr-date" 
+    "gr-site gr-site"
+    "gr-galeries gr-galeries";
+                        
+}
+
+

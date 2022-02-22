@@ -1,0 +1,91 @@
+html{
+  font-size:18px;
+  font-family:'Sen', sans-serif;
+}
+
+body{
+  padding-top:3rem;
+  min-width:200px;
+}
+main{
+  padding-left:2em;
+  padding-right:2em;
+  padding-top:2em;
+  box-sizing:border-box;
+
+  display:grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  grid-template-areas: 
+  "gr-prezentare gr-prezentare gr-prezentare gr-prezentare "
+  "gr-diverse1 gr-diverse1 gr-diverse2 gr-diverse2"
+  "gr-calendar gr-tabel gr-tabel gr-anunturi"
+  "gr-lista gr-date gr-site gr-site"
+  "gr-galeries gr-galeries gr-galeries gr-galeries";
+        
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
+}
+#produse{
+  grid-area:gr-prezentare;
+}
+#descriere{
+  grid-area:gr-prezentare;
+}
+#bestsellers{
+  grid-area:gr-diverse1;
+  border:transparent;
+  box-shadow: 3px 3px 10px transparent;
+}
+
+#titlul{
+    grid-area: gr-diverse2;
+    border:transparent;
+    box-shadow: 3px 3px 10px transparent;
+}
+#galerie-statica{
+  grid-area: gr-galeries;
+  border:transparent;
+  box-shadow: 3px 3px 10px transparent;
+}
+#calendar{
+    grid-area: gr-calendar;
+}
+#tabel{
+    grid-area: gr-tabel;
+}
+#anunturi{
+    grid-area: gr-anunturi;
+}
+#lista{
+    grid-area: gr-lista;
+}
+#date{
+    grid-area: gr-date;
+}
+#site{
+    grid-area: gr-site;
+}
+
+.grid-item{
+  border: 3px solid white;
+  padding: 6px;
+  border-radius: 2%;
+  box-shadow: 3px 3px 10px white;
+}
+
+#bestsellers > ol{
+  height: 125px;
+}
+#titlul > details{
+  padding-bottom: 10px;
+}
+/*
+@media screen and (max-width:500px){
+  main {
+      display:block;
+  }
+} 
+*/

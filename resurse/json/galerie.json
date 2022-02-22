@@ -1,0 +1,366 @@
+{
+    "cale_galerie":"resurse/imagini/galerie",
+    "imagini": [
+        {
+            "cale_fisier":"annakarenina.jpg",
+            "titlu":"Anna Karenina",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"dashandlily.jpg",
+            "titlu":"Dash and Lily",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"got.jpg",
+            "titlu":"Game of Thrones",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"harrypotter.jpg",
+            "titlu":"Harry Potter",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"inthemidstofwinter.jpg",
+            "titlu":"In the midst of Winter",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"letitsnow.jpg",
+            "titlu":"Let it snow",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"norwegianwood.jpg",
+            "titlu":"Norwegian Wood",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"royalholiday.jpg",
+            "titlu":"Royal Holiday",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"snowfalling.jpg",
+            "titlu":"Snow falling",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"suchafunage.jpg",
+            "titlu":"Such a fun age",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"thesnowchild.jpeg",
+            "titlu":"The snow child",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"thestarlesssea.jpeg",
+            "titlu":"The starless sea",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"trapped.jpg",
+            "titlu":"Trapped",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"wintergarden.jpg",
+            "titlu":"Winter Garden",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"winterpeople.jpg",
+            "titlu":"winterpeople",
+            "text_descriere":"carte de iarna",
+            "anotimp":"iarna"
+        },
+        {
+            "cale_fisier":"sabsent.jpg",
+            "titlu":"Absent in the spring",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"semily.jpg",
+            "titlu":"Emily of New Moon",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"sflush.jpg",
+            "titlu":"Flush",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"sglass.jpg",
+            "titlu":"The Glass Hotel",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"shidden.jpg",
+            "titlu":"The Hidden Girl",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"sillbe.jpg",
+            "titlu":"I'll be your blue sky",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"slasttaxi.jpg",
+            "titlu":"The last taxi driver",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"slurking.jpg",
+            "titlu":"Lurking",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"smiddlemarch.jpg",
+            "titlu":"Middlemarch",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"spp.jpg",
+            "titlu":"Pride and Prejudice",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"spring.jpg",
+            "titlu":"Spring",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"sreal.jpg",
+            "titlu":"Real life",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"ssecret.jpg",
+            "titlu":"The secret garden",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"ssurrender.jpg",
+            "titlu":"Surrender",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"swuthering.jpg",
+            "titlu":"Wuthering Heights",
+            "text_descriere":"carte de primavara",
+            "anotimp":"primavara"
+        },
+        {
+            "cale_fisier":"vcirce.png",
+            "titlu":"Circe",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vdune.jpeg",
+            "titlu":"Dune",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vall.jpg",
+            "titlu":"All the light we cannot see",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vargonauts.jpg",
+            "titlu":"The Argonauts",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vbeach.jpg",
+            "titlu":"Beach Read",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vcrawdads.jpg",
+            "titlu":"Where the crawdads sing",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vdaughter.jpg",
+            "titlu":"Somebody's daughter",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vlord.jpg",
+            "titlu":"Lord of the Flies",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vlotr.jpg",
+            "titlu":"Lord of the rings",
+            "text_descriere": "Creator: Roald, Berit; Credit: SCANPIX",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vmalibu.jpg",
+            "titlu":"Malibu Rising",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vone.jpg",
+            "titlu":"One last stop",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vother.jpg",
+            "titlu":"The other black girl",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vpeople.jpg",
+            "titlu":"People we meet on vacation",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vred.jpg",
+            "titlu":"Red, White and Royal Blue",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"vsiren.jpg",
+            "titlu":"The Siren",
+            "text_descriere":"carte de vara",
+            "anotimp":"vara"
+        },
+        {
+            "cale_fisier":"taddie.jpg",
+            "titlu":"The invisible life of Addie LaRue",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tdelights.jpg",
+            "titlu":"These violent delights",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tdorian.jpg",
+            "titlu":"The picture of Dorian Gray",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tdracula.jpg",
+            "titlu":"Dracula",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tgatsby.jpg",
+            "titlu":"the Great Gatsby",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tlittle.jpg",
+            "titlu":"Little women",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tlovecraft.jpg",
+            "titlu":"winterpeople",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tnarnia.jpg",
+            "titlu":"The magician's nephew",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tnight.jpg",
+            "titlu":"The night circus",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tpractical.jpg",
+            "titlu":"Practical magic",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tprince.jpg",
+            "titlu":"The little prince",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tred.jpg",
+            "titlu":"Red at bone",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tscorpio.jpg",
+            "titlu":"The Scropio Races",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"tsecret.jpg",
+            "titlu":"The secret history",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        },
+        {
+            "cale_fisier":"twitching.jpg",
+            "titlu":"The year of witching",
+            "text_descriere":"carte de toamna",
+            "anotimp":"toamna"
+        }
+
+    ]
+}

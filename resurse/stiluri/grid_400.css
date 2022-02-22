@@ -1,0 +1,13 @@
+html{
+  font-size:0.7em;
+}  
+main{
+    padding-left:1em;
+    padding-right:1em;
+    grid-row-gap: 2em;
+    display:block;
+                        
+  }
+.grid-item{
+    margin-top: 0.75em;
+}
